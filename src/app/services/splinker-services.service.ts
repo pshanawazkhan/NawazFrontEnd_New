@@ -19,14 +19,14 @@ export class SplinkerServicesService {
 
       //
       
-     return this.http.get("http://localhost:8080/splinkers/get"); 
+     return this.http.get(Urls.splinkersget); 
       
     }
     
     addDetails(){
 
     
-   this.http.post();
+   //this.http.post();
 
     }
 

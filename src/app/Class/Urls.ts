@@ -1,9 +1,9 @@
 
 
-export class Urls {
+export const Urls = {
     
     
- //let splinkersget="http://localhost:8080/splinkers/get";
+  'splinkersget': 'http://localhost:8080/splinkers/get'
     
   
 }
