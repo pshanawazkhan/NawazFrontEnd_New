@@ -3,7 +3,7 @@ export class Splinkers {
 
  splid:number;
 
- name:string;
+ name:string;hhjj
 
  cprice:number;
 
