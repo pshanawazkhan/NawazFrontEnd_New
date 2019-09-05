@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CyclesComponent implements OnInit {
 
+  bsValue = new Date();
+
+
   constructor() { }
 
   ngOnInit() {

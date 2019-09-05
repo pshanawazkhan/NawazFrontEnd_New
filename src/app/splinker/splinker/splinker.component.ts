@@ -23,8 +23,7 @@ export class SplinkerComponent implements OnInit {
 
    splServices.getBooksDetailsDetails().subscribe((data)=>{this.splData=data;
   
-   console.log("length --------------"+this.splData.length)
-   console.log('log added for splinker file ----------');
+   
   });
 
   }

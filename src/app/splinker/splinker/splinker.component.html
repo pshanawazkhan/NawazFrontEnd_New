@@ -1,4 +1,5 @@
 
+<div class="container text-center">
 <h1>---------Splinker Data -----</h1>
 
     <table matSort (matSortChange)="sortData($event)">
@@ -6,15 +7,16 @@
       <th mat-sort-header="splid">Splinkar Id</th>
       <th mat-sort-header="name">Splinkar Item Name</th>
       <th mat-sort-header="cprice">Splinkar Item Price</th>
-      
+      <th mat-sort-header="cprice">Action</th>
     </tr>
   
     <tr *ngFor="let data of splData1">
       <td>{{data.splid}}</td>
       <td>{{data.name}}</td>
       <td>{{data.cprice}}</td>
-      
+       <button mat-button (click)="openDialog('Update',element)" mat-flat-button color="primary">Update</button>
+       <button mat-button (click)="openDialog('Delete',element)"  mat-raised-button color="accent">Delete</button>
     </tr>
 
   </table>
-
+</div>
