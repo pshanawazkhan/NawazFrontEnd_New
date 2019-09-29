@@ -5,13 +5,15 @@ import { Routes}  from '@angular/router';
 import { ToolsComponent } from '../tools/tools/tools.component';
 import { SplinkerComponent } from '../splinker/splinker/splinker.component';
 import { CyclesComponent } from '../cycles/cycles/cycles.component';
+import { SplRegestrationComponent } from '../splinker/spl-regestration/spl-regestration.component';
 
 
 const rt :Routes=[
 
    {path:'tools',component:ToolsComponent},
    {path:'splinker',component:SplinkerComponent},
-   {path:'cycles',component:CyclesComponent}
+   {path:'cycles',component:CyclesComponent},
+   {path:'splRegestration',component:SplRegestrationComponent}
 ];
 @NgModule({
     imports:[RouterModule.forRoot(rt)],
