@@ -11,14 +11,13 @@ import { ToolsComponent } from './tools/tools/tools.component';
 import { CyclesComponent } from './cycles/cycles/cycles.component';
 import { SplinkerServicesService } from './services/splinker-services.service';
 import { HttpClientModule } from '@angular/common/http';
-import { SplRegestrationComponent } from './splinker/spl-regestration/spl-regestration.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     SplinkerComponent,
     ToolsComponent,
-    CyclesComponent,
-    SplRegestrationComponent
+    CyclesComponent
   ],
   imports: [
     BrowserModule,
